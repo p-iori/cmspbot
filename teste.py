@@ -20,7 +20,7 @@ WebDriverWait(driver, 5).until(
 
 # Encontra a barra de pesquisa pela classe dela e pesquisa uwu
 input_element = driver.find_element(By.CLASS_NAME, 'gLFyf')
-input_element.send_keys('uwu' + Keys.ENTER)
+input_element.send_keys('python' + Keys.ENTER)
 
 time.sleep(10)
 
