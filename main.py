@@ -25,6 +25,10 @@ campo_digito_id = 'digit-student'
 campo_senha_id = 'password-student'
 botao_entrar_id = 'btn-login-student'
 
+RA = '000108178153'
+DIGITO = '1'
+SENHA = ''
+
 botao_tarefa_class = 'material-icons.room-list-menu-tasks.tdg'
 
 # Abre o cmsp
@@ -48,15 +52,15 @@ WebDriverWait(driver, 5).until(
 )
 
 campo_ra = driver.find_element(By.ID, campo_ra_id)
-campo_ra.send_keys(ESCREVA O RA ENTRE ASPAS AQUI)
+campo_ra.send_keys(RA)
 
 # Localiza o dígito e escreve
 campo_digito = driver.find_element(By.ID, campo_digito_id)
-campo_digito.send_keys(ESCREVA O DIGITO ENTRE ASPAS AQUI)
+campo_digito.send_keys(DIGITO)
 
 # Localiza a senha e escreve
 campo_senha = driver.find_element(By.ID, campo_senha_id)
-campo_senha.send_keys(ESCREVA A SENHA ENTRE ASPAS AQUI)
+campo_senha.send_keys(SENHA)
 
 # Localiza o entrar e clica
 botao_entrar = driver.find_element(By.ID, botao_entrar_id)
