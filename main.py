@@ -48,15 +48,15 @@ WebDriverWait(driver, 5).until(
 )
 
 campo_ra = driver.find_element(By.ID, campo_ra_id)
-campo_ra.send_keys('000108178153')
+campo_ra.send_keys(ESCREVA O RA ENTRE ASPAS AQUI)
 
 # Localiza o dígito e escreve
 campo_digito = driver.find_element(By.ID, campo_digito_id)
-campo_digito.send_keys('1')
+campo_digito.send_keys(ESCREVA O DIGITO ENTRE ASPAS AQUI)
 
 # Localiza a senha e escreve
 campo_senha = driver.find_element(By.ID, campo_senha_id)
-campo_senha.send_keys('@Yagami2023')
+campo_senha.send_keys(ESCREVA A SENHA ENTRE ASPAS AQUI)
 
 # Localiza o entrar e clica
 botao_entrar = driver.find_element(By.ID, botao_entrar_id)
