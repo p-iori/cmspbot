@@ -16,3 +16,6 @@ Bot que resolve as tarefas do CMSP Web automaticamente
 - Instalar o webdriver do navegador desejado em sua versão (o webdriver do arquivo é do chrome e pode estar desatualizado)
 - Alterar o valor das variáveis RA, DIGITO e SENHA no código para a conta desejada do cmsp
 - Caso o computador seja muito lento, aumentar o tempo de espera dos elementos 
+
+
+* O código está incompleto, não consigo encontrar uma forma de fazer com que o Selenium encontre as tarefas (O nenhum ID, class ou XPATH funciona).
