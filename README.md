@@ -18,4 +18,4 @@ Bot que resolve as tarefas do CMSP Web automaticamente
 - Caso o computador seja muito lento, aumentar o tempo de espera dos elementos 
 
 
-* O código está incompleto, não consigo encontrar uma forma de fazer com que o Selenium encontre as tarefas (O nenhum ID, class ou XPATH funciona).
+*** O código está incompleto, não consigo encontrar uma forma de fazer com que o Selenium encontre as tarefas (O nenhum ID, class ou XPATH funciona) ***
